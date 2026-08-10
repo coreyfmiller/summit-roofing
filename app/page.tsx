@@ -9,6 +9,7 @@ import { ServiceAreas } from "@/components/service-areas"
 import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import { SiteFooter } from "@/components/site-footer"
+import { ChatWidget } from './components/chat-widget'
 
 export default function Page() {
   return (
@@ -26,6 +27,7 @@ export default function Page() {
         <Contact />
       </main>
       <SiteFooter />
+      <ChatWidget />
     </div>
   )
 }
