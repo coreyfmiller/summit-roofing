@@ -17,7 +17,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:h-20">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:h-20">
         <a href="#top" className="flex items-center gap-2 text-primary">
           <MountainSnow className="h-7 w-7" aria-hidden="true" />
           <span className="font-mono text-xl font-extrabold uppercase leading-none tracking-tight md:text-2xl">

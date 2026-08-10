@@ -31,7 +31,7 @@ export function About() {
             to deliver roofs that stand up to everything the Maritimes throw at them.
           </p>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            From your first estimate to the final cleanup, we treat your home like it&apos;s our own —
+            From your first estimate to the final cleanup, we treat your home like it&apos;s our own ,
             honest communication, tidy job sites, and results that last.
           </p>
 

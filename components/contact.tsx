@@ -34,7 +34,7 @@ export function Contact() {
           </h2>
           <p className="mt-4 max-w-md text-pretty text-lg leading-relaxed text-primary-foreground/80">
             Tell us about your roofing project and we&apos;ll get back to you with a free,
-            no-obligation estimate — usually within one business day.
+            no-obligation estimate , usually within one business day.
           </p>
 
           <ul className="mt-8 space-y-5">

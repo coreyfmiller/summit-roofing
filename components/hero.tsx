@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { CheckCircle2, Phone, ShieldCheck } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -6,11 +7,14 @@ const points = ["Free, no-obligation estimates", "Licensed & fully insured", "Lo
 export function Hero() {
   return (
     <section id="top" className="bg-background">
-      {/* Banner image — already contains the logo, tagline and value props */}
+      {/* Banner image, already contains the logo, tagline and value props */}
       <div className="mx-auto w-full max-w-7xl px-4 pt-6">
-        <img
+        <Image
           src="/images/summit-hero.png"
-          alt="Summit Roofing NB — Built to Protect. Built to Last. A modern home with a new dark metal roof overlooking the New Brunswick coastline"
+          alt="Summit Roofing NB, Built to Protect. Built to Last. A modern home with a new dark metal roof overlooking the New Brunswick coastline"
+          width={1728}
+          height={912}
+          priority
           className="w-full rounded-xl border border-border shadow-sm"
         />
       </div>
